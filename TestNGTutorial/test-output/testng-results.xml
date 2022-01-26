@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41" started-at="2022-01-20T19:30:19Z" finished-at="2022-01-20T19:30:19Z">
+    <groups>
+      <group name="smoke">
+        <method signature="day1.Demo1()[pri:0, instance:Test.day1@7bb11784]" name="Demo1" class="Test.day1"/>
+        <method signature="day3.WebloginCarloan()[pri:0, instance:Test.day3@23223dd8]" name="WebloginCarloan" class="Test.day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Car Loan" duration-ms="41" started-at="2022-01-20T19:30:19Z" finished-at="2022-01-20T19:30:19Z">
+      <class name="Test.day1">
+        <test-method status="PASS" signature="afsuite()[pri:0, instance:Test.day1@7bb11784]" name="afsuite" is-config="true" duration-ms="0" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsuite -->
+      </class> <!-- Test.day1 -->
+      <class name="Test.day3">
+        <test-method status="PASS" signature="bfsuite()[pri:0, instance:Test.day3@23223dd8]" name="bfsuite" is-config="true" duration-ms="15" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+        <test-method status="PASS" signature="Bfmethod()[pri:0, instance:Test.day3@23223dd8]" name="Bfmethod" is-config="true" duration-ms="0" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method status="PASS" signature="WebloginCarloan()[pri:0, instance:Test.day3@23223dd8]" name="WebloginCarloan" duration-ms="5" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarloan -->
+        <test-method status="PASS" signature="Bfmethod()[pri:0, instance:Test.day3@23223dd8]" name="Bfmethod" is-config="true" duration-ms="0" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method status="PASS" signature="MbileCarloan(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@23223dd8]" name="MbileCarloan" duration-ms="9" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MbileCarloan -->
+        <test-method status="PASS" signature="Bfmethod()[pri:0, instance:Test.day3@23223dd8]" name="Bfmethod" is-config="true" duration-ms="0" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method status="PASS" signature="SignIn(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@23223dd8]" name="SignIn" duration-ms="1" started-at="2022-01-20T14:30:19Z" data-provider="getData" finished-at="2022-01-20T14:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Uname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="Bfmethod()[pri:0, instance:Test.day3@23223dd8]" name="Bfmethod" is-config="true" duration-ms="1" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method status="PASS" signature="SignIn(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@23223dd8]" name="SignIn" duration-ms="0" started-at="2022-01-20T14:30:19Z" data-provider="getData" finished-at="2022-01-20T14:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Second Uname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="Bfmethod()[pri:0, instance:Test.day3@23223dd8]" name="Bfmethod" is-config="true" duration-ms="0" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method status="PASS" signature="SignIn(java.lang.String, java.lang.String)[pri:0, instance:Test.day3@23223dd8]" name="SignIn" duration-ms="1" started-at="2022-01-20T14:30:19Z" data-provider="getData" finished-at="2022-01-20T14:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Third Uname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="LoginAPIcarloan()[pri:0, instance:Test.day3@23223dd8]" name="LoginAPIcarloan" duration-ms="1" started-at="2022-01-20T14:30:19Z" depends-on-methods="Test.day3.WebloginCarloan" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIcarloan -->
+        <test-method status="PASS" signature="Bfmethod()[pri:0, instance:Test.day3@23223dd8]" name="Bfmethod" is-config="true" duration-ms="0" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+      </class> <!-- Test.day3 -->
+    </test> <!-- Car Loan -->
+    <test name="Home Loan" duration-ms="32" started-at="2022-01-20T19:30:19Z" finished-at="2022-01-20T19:30:19Z">
+      <class name="Test.day1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:Test.day1@7bb11784]" name="Demo" duration-ms="5" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Demo1()[pri:0, instance:Test.day1@7bb11784]" name="Demo1" duration-ms="1" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method status="PASS" signature="endDemo()[pri:0, instance:Test.day1@7bb11784]" name="endDemo" is-config="true" duration-ms="1" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDemo -->
+      </class> <!-- Test.day1 -->
+      <class name="Test.day2">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:Test.day2@63d4e2ba]" name="prerequiste" is-config="true" duration-ms="1" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="FTest()[pri:0, instance:Test.day2@63d4e2ba]" name="FTest" duration-ms="2" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FTest -->
+      </class> <!-- Test.day2 -->
+      <class name="Test.day4">
+        <test-method status="PASS" signature="BfClass()[pri:0, instance:Test.day4@33a10788]" name="BfClass" is-config="true" duration-ms="1" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfClass -->
+        <test-method status="PASS" signature="WebloginHomeloan()[pri:0, instance:Test.day4@33a10788]" name="WebloginHomeloan" duration-ms="1" started-at="2022-01-20T14:30:19Z" finished-at="2022-01-20T14:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeloan -->
+      </class> <!-- Test.day4 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
