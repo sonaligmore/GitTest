@@ -6,11 +6,18 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class day1 {
+	@Test
+	public void endDemodevelop()
+	{
+	System.out.println("Execute last ");
+	
+	}
 	
 	@AfterTest
 	public void endDemo()
 	{
 	System.out.println("Execute last ");
+	
 	}
 	
 @Test

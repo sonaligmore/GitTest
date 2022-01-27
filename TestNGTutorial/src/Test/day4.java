@@ -9,7 +9,11 @@ public class day4 {
 	{
 		System.out.println("MbileloginHomeloan ");
 		}
-
+	@Test
+	public void Mbiledevelop()
+	{
+		System.out.println("Mbile develop");
+		}
 	@BeforeClass
 	public void BfClass()
 	{
