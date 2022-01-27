@@ -24,7 +24,12 @@ public class day3 {
 		System.out.println(urlname);
 		System.out.println(pwd);
 	}
-	
+	@Test
+	public void SignInGITXdevelop(String urlname,String pwd)
+	{
+		System.out.println(urlname + "GitX develop");
+		System.out.println(pwd+ "GitX develop");
+	}
 @Test
 public void MbileloginCarloan()
 {
