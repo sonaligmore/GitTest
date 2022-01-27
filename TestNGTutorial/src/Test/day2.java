@@ -10,6 +10,10 @@ public class day2 {
 		System.out.println("byee ");
 		System.out.println("byee 2");
 		System.out.println("byee 3");
+		
+		System.out.println("byee 3 ");
+		System.out.println("byee 4");
+		System.out.println("byee 5");
 
 	}
 	@BeforeTest
